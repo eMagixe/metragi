@@ -4,7 +4,7 @@
             <div class="price">{{ apartment.price }} руб</div>
             <div class="row">
                 <div class="col-3">
-                <img src="http://landmarkhunter.com/photos/51/00/510030-M.jpg" class="img-fluid rounded-0" alt="...">
+                <img :src="apartment.images.length > 0 ? '/storage/' + apartment.images[0].url : 'https://brilliant24.ru/files/cat/template_01.png'" class="img-fluid rounded-0" alt="...">
                 </div>
                 <div class="col-8">
                 <div class="card-body">

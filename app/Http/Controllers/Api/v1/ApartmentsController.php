@@ -15,7 +15,7 @@ class ApartmentsController extends Controller
      */
     public function index()
     {
-       return Apartment::all();
+        return Apartment::with('images')->get();
     }
 
     /**
@@ -39,13 +39,17 @@ class ApartmentsController extends Controller
         $apartment = Apartment::create([
             'name' => $request->name,
             'object_type' => $request->object_type,
-            'housing_type' => $request->housing_type,
+            'housing_type' => intval($request->housing_type),
             'apartment_type' => $request->apartment_type,
-            'count_room' => $request->count_room,
-            'price' => $request->price,
-            'square' => $request->square,
-            'floor' => $request->floor
+            'count_room' => intval($request->count_room),
+            'price' => intval($request->price),
+            'square' => intval($request->square),
+            'floor' => intval($request->floor)
         ]);
+
+        foreach ($request->images as $image) {
+            $apartment->images()->create(['url' => $image]);
+        }
 
         return [
             'status' => true,

@@ -5384,6 +5384,150 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ApartmentCreate.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ApartmentCreate.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _ImageUpload_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ImageUpload.vue */ "./resources/js/components/ImageUpload.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  components: {
+    ImageUpload: _ImageUpload_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  computed: {
+    getImages: function getImages() {
+      return this.$store.getters.getImages;
+    }
+  },
+  methods: {
+    addRealty: function addRealty() {
+      this.apartment.images = this.getImages.slice();
+      this.$store.dispatch('addApartment', this.apartment);
+    }
+  },
+  data: function data() {
+    return {
+      image: null,
+      apartment: {
+        name: '',
+        object_type: 'old',
+        housing_type: 1,
+        apartment_type: 'flat',
+        count_room: 1,
+        price: 1000000,
+        square: 10,
+        floor: 1
+      },
+      input_filters: {
+        room_count: [{
+          id: 1,
+          name: 'Студия',
+          rooms: 0
+        }, {
+          id: 2,
+          name: 'Свободная планировка',
+          rooms: 0
+        }, {
+          id: 3,
+          name: '1 комната',
+          rooms: 1
+        }, {
+          id: 4,
+          name: '2 комнаты',
+          rooms: 2
+        }, {
+          id: 5,
+          name: '3 комнаты',
+          rooms: 3
+        }, {
+          id: 6,
+          name: '4 комнаты',
+          rooms: 4
+        }, {
+          id: 7,
+          name: '5 комнат и более',
+          rooms: 5
+        }],
+        house_types: [{
+          type: 1,
+          name: 'Кирпичный'
+        }, {
+          type: 2,
+          name: 'Панельный'
+        }, {
+          type: 3,
+          name: 'Блочный'
+        }, {
+          type: 4,
+          name: 'Монолитный'
+        }, {
+          type: 5,
+          name: 'Деревянный'
+        }]
+      }
+    };
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Banner.vue?vue&type=script&lang=js&":
 /*!*************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Banner.vue?vue&type=script&lang=js& ***!
@@ -5531,6 +5675,86 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ImageUpload.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ImageUpload.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  computed: {
+    getFiles: function getFiles() {
+      return this.$store.getters.getFiles;
+    }
+  },
+  methods: {
+    fileInputChange: function fileInputChange() {
+      var _this = this;
+
+      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                _this.$store.dispatch('fileInputChange', _this.$refs.file.files);
+
+              case 1:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }))();
+    }
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/NavigationPanel.vue?vue&type=script&lang=js&":
 /*!**********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/NavigationPanel.vue?vue&type=script&lang=js& ***!
@@ -5655,10 +5879,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Sell.vue?vue&type=script&lang=js&":
-/*!******************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Sell.vue?vue&type=script&lang=js& ***!
-  \******************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Mortgage.vue?vue&type=script&lang=js&":
+/*!**********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Mortgage.vue?vue&type=script&lang=js& ***!
+  \**********************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -5670,20 +5894,86 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  data: function data() {
+    return {
+      name: '',
+      phone: '',
+      realty: ''
+    };
+  },
   methods: {
-    addRealty: function addRealty() {
-      this.$store.dispatch('addApartment', {
-        name: 'test 3',
-        object_type: 'new',
-        housing_type: 'housing_type 3',
-        apartment_type: 'apartment_type 3',
-        count_room: 2,
-        price: 2500000,
-        square: 60,
-        floor: 2
+    addMortgage: function addMortgage() {
+      this.$store.dispatch('addMortgage', {
+        name: this.name,
+        phone: this.phone,
+        realty: this.realty
       });
     }
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Sell.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Sell.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _components_ApartmentCreate_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../components/ApartmentCreate.vue */ "./resources/js/components/ApartmentCreate.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  components: {
+    ApartmentCreate: _components_ApartmentCreate_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  data: function data() {
+    return {
+      type_realty: 'apartment'
+    };
   }
 });
 
@@ -5785,9 +6075,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
 /* harmony import */ var _views_Home__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./views/Home */ "./resources/js/views/Home.vue");
 /* harmony import */ var _views_Sell__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./views/Sell */ "./resources/js/views/Sell.vue");
+/* harmony import */ var _views_Mortgage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./views/Mortgage */ "./resources/js/views/Mortgage.vue");
 
 
 vue__WEBPACK_IMPORTED_MODULE_0__["default"].use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
+
 
 
 var routes = [{
@@ -5796,6 +6088,9 @@ var routes = [{
 }, {
   path: '/sell',
   component: _views_Sell__WEBPACK_IMPORTED_MODULE_3__["default"]
+}, {
+  path: '/mortgage',
+  component: _views_Mortgage__WEBPACK_IMPORTED_MODULE_4__["default"]
 }];
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
   mode: "history",
@@ -5815,16 +6110,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
-/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js");
+/* harmony import */ var vuex__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vuex */ "./node_modules/vuex/dist/vuex.esm.js");
 /* harmony import */ var _modules_apartment__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/apartment */ "./resources/js/store/modules/apartment.js");
+/* harmony import */ var _modules_mortgage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/mortgage */ "./resources/js/store/modules/mortgage.js");
+/* harmony import */ var _modules_imageUploder__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/imageUploder */ "./resources/js/store/modules/imageUploder.js");
 
 
 
-vue__WEBPACK_IMPORTED_MODULE_1__["default"].use(vuex__WEBPACK_IMPORTED_MODULE_2__["default"]);
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vuex__WEBPACK_IMPORTED_MODULE_2__["default"].Store({
+
+
+vue__WEBPACK_IMPORTED_MODULE_3__["default"].use(vuex__WEBPACK_IMPORTED_MODULE_4__["default"]);
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (new vuex__WEBPACK_IMPORTED_MODULE_4__["default"].Store({
   modules: {
-    apartment: _modules_apartment__WEBPACK_IMPORTED_MODULE_0__["default"]
+    apartment: _modules_apartment__WEBPACK_IMPORTED_MODULE_0__["default"],
+    mortgage: _modules_mortgage__WEBPACK_IMPORTED_MODULE_1__["default"],
+    imageUploder: _modules_imageUploder__WEBPACK_IMPORTED_MODULE_2__["default"]
   }
 }));
 
@@ -5925,6 +6226,170 @@ function _asyncToGenerator(fn) { return function () { var self = this, args = ar
       return state.apartments;
     }
   }
+});
+
+/***/ }),
+
+/***/ "./resources/js/store/modules/imageUploder.js":
+/*!****************************************************!*\
+  !*** ./resources/js/store/modules/imageUploder.js ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_1__);
+
+
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  actions: {
+    fileInputChange: function fileInputChange(context, files) {
+      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee() {
+        var fileList, _i, _fileList, item;
+
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee$(_context) {
+          while (1) {
+            switch (_context.prev = _context.next) {
+              case 0:
+                fileList = Array.from(files);
+                context.commit('addFileList', fileList);
+                _i = 0, _fileList = fileList;
+
+              case 3:
+                if (!(_i < _fileList.length)) {
+                  _context.next = 10;
+                  break;
+                }
+
+                item = _fileList[_i];
+                _context.next = 7;
+                return context.dispatch('uploadFile', item);
+
+              case 7:
+                _i++;
+                _context.next = 3;
+                break;
+
+              case 10:
+              case "end":
+                return _context.stop();
+            }
+          }
+        }, _callee);
+      }))();
+    },
+    uploadFile: function uploadFile(context, item) {
+      return _asyncToGenerator( /*#__PURE__*/_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().mark(function _callee2() {
+        var form;
+        return _babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default().wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                form = new FormData();
+                form.append('image', item);
+                _context2.next = 4;
+                return axios__WEBPACK_IMPORTED_MODULE_1___default().post('/api/image/upload', form, {
+                  onUploadProgress: function onUploadProgress(itemUpload) {
+                    console.log(item.name);
+                    var loadingFile = {
+                      progress: Math.round(itemUpload.loaded / itemUpload.total * 100),
+                      name: item.name
+                    };
+                    context.commit('updateFileProgress', loadingFile);
+                  }
+                }).then(function (response) {
+                  context.commit('updateFileProgress', {
+                    progress: 0,
+                    name: ''
+                  });
+                  context.commit('updateFilesList', item);
+                  context.commit('addImage', response.data);
+                })["catch"](function (error) {
+                  console.log(error);
+                });
+
+              case 4:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2);
+      }))();
+    }
+  },
+  mutations: {
+    addImage: function addImage(state, imageName) {
+      state.images.push(imageName);
+    },
+    addFileList: function addFileList(state, fileList) {
+      state.files.order = fileList.slice();
+    },
+    updateFileProgress: function updateFileProgress(state, _ref) {
+      var progress = _ref.progress,
+          name = _ref.name;
+      state.files.progress = progress;
+      state.files.current = name + ' ' + progress + '%';
+    },
+    updateFilesList: function updateFilesList(state, item) {
+      state.files.finish.push(item);
+      state.files.order.splice(item, 1);
+    }
+  },
+  state: {
+    images: [],
+    files: {
+      order: [],
+      finish: [],
+      progress: 0,
+      current: ''
+    }
+  },
+  getters: {
+    getImages: function getImages(state) {
+      return state.images;
+    },
+    getFiles: function getFiles(state) {
+      return state.files;
+    }
+  }
+});
+
+/***/ }),
+
+/***/ "./resources/js/store/modules/mortgage.js":
+/*!************************************************!*\
+  !*** ./resources/js/store/modules/mortgage.js ***!
+  \************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! axios */ "./node_modules/axios/index.js");
+/* harmony import */ var axios__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(axios__WEBPACK_IMPORTED_MODULE_0__);
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  actions: {
+    addMortgage: function addMortgage(context, mortgage) {
+      axios__WEBPACK_IMPORTED_MODULE_0___default().post('/api/mortgage/create', mortgage);
+    }
+  },
+  mutations: {},
+  state: {},
+  getters: {}
 });
 
 /***/ }),
@@ -29805,6 +30270,45 @@ component.options.__file = "resources/js/components/ApartamentFilters.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/ApartmentCreate.vue":
+/*!*****************************************************!*\
+  !*** ./resources/js/components/ApartmentCreate.vue ***!
+  \*****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _ApartmentCreate_vue_vue_type_template_id_2b192c33___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ApartmentCreate.vue?vue&type=template&id=2b192c33& */ "./resources/js/components/ApartmentCreate.vue?vue&type=template&id=2b192c33&");
+/* harmony import */ var _ApartmentCreate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ApartmentCreate.vue?vue&type=script&lang=js& */ "./resources/js/components/ApartmentCreate.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ApartmentCreate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ApartmentCreate_vue_vue_type_template_id_2b192c33___WEBPACK_IMPORTED_MODULE_0__.render,
+  _ApartmentCreate_vue_vue_type_template_id_2b192c33___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/ApartmentCreate.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/Banner.vue":
 /*!********************************************!*\
   !*** ./resources/js/components/Banner.vue ***!
@@ -29965,6 +30469,45 @@ component.options.__file = "resources/js/components/Header.vue"
 
 /***/ }),
 
+/***/ "./resources/js/components/ImageUpload.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/components/ImageUpload.vue ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _ImageUpload_vue_vue_type_template_id_e0921fbe___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ImageUpload.vue?vue&type=template&id=e0921fbe& */ "./resources/js/components/ImageUpload.vue?vue&type=template&id=e0921fbe&");
+/* harmony import */ var _ImageUpload_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ImageUpload.vue?vue&type=script&lang=js& */ "./resources/js/components/ImageUpload.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _ImageUpload_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _ImageUpload_vue_vue_type_template_id_e0921fbe___WEBPACK_IMPORTED_MODULE_0__.render,
+  _ImageUpload_vue_vue_type_template_id_e0921fbe___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/ImageUpload.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/NavigationPanel.vue":
 /*!*****************************************************!*\
   !*** ./resources/js/components/NavigationPanel.vue ***!
@@ -30086,6 +30629,45 @@ component.options.__file = "resources/js/views/Home.vue"
 
 /***/ }),
 
+/***/ "./resources/js/views/Mortgage.vue":
+/*!*****************************************!*\
+  !*** ./resources/js/views/Mortgage.vue ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Mortgage_vue_vue_type_template_id_b628ea8a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Mortgage.vue?vue&type=template&id=b628ea8a& */ "./resources/js/views/Mortgage.vue?vue&type=template&id=b628ea8a&");
+/* harmony import */ var _Mortgage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Mortgage.vue?vue&type=script&lang=js& */ "./resources/js/views/Mortgage.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Mortgage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Mortgage_vue_vue_type_template_id_b628ea8a___WEBPACK_IMPORTED_MODULE_0__.render,
+  _Mortgage_vue_vue_type_template_id_b628ea8a___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/views/Mortgage.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/views/Sell.vue":
 /*!*************************************!*\
   !*** ./resources/js/views/Sell.vue ***!
@@ -30138,6 +30720,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApartamentFilters_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ApartamentFilters.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ApartamentFilters.vue?vue&type=script&lang=js&");
  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApartamentFilters_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/ApartmentCreate.vue?vue&type=script&lang=js&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/components/ApartmentCreate.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApartmentCreate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ApartmentCreate.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ApartmentCreate.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ApartmentCreate_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -30205,6 +30803,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/ImageUpload.vue?vue&type=script&lang=js&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/ImageUpload.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageUpload_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ImageUpload.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ImageUpload.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageUpload_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
 /***/ "./resources/js/components/NavigationPanel.vue?vue&type=script&lang=js&":
 /*!******************************************************************************!*\
   !*** ./resources/js/components/NavigationPanel.vue?vue&type=script&lang=js& ***!
@@ -30250,6 +30864,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Home.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Home.vue?vue&type=script&lang=js&");
  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/views/Mortgage.vue?vue&type=script&lang=js&":
+/*!******************************************************************!*\
+  !*** ./resources/js/views/Mortgage.vue?vue&type=script&lang=js& ***!
+  \******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Mortgage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Mortgage.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Mortgage.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Mortgage_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -30351,6 +30981,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/ApartmentCreate.vue?vue&type=template&id=2b192c33&":
+/*!************************************************************************************!*\
+  !*** ./resources/js/components/ApartmentCreate.vue?vue&type=template&id=2b192c33& ***!
+  \************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApartmentCreate_vue_vue_type_template_id_2b192c33___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApartmentCreate_vue_vue_type_template_id_2b192c33___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ApartmentCreate_vue_vue_type_template_id_2b192c33___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ApartmentCreate.vue?vue&type=template&id=2b192c33& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ApartmentCreate.vue?vue&type=template&id=2b192c33&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/Banner.vue?vue&type=template&id=3d01b757&":
 /*!***************************************************************************!*\
   !*** ./resources/js/components/Banner.vue?vue&type=template&id=3d01b757& ***!
@@ -30419,6 +31066,23 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/components/ImageUpload.vue?vue&type=template&id=e0921fbe&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/ImageUpload.vue?vue&type=template&id=e0921fbe& ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageUpload_vue_vue_type_template_id_e0921fbe___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageUpload_vue_vue_type_template_id_e0921fbe___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ImageUpload_vue_vue_type_template_id_e0921fbe___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./ImageUpload.vue?vue&type=template&id=e0921fbe& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ImageUpload.vue?vue&type=template&id=e0921fbe&");
+
+
+/***/ }),
+
 /***/ "./resources/js/components/NavigationPanel.vue?vue&type=template&id=4b28be96&scoped=true&":
 /*!************************************************************************************************!*\
   !*** ./resources/js/components/NavigationPanel.vue?vue&type=template&id=4b28be96&scoped=true& ***!
@@ -30466,6 +31130,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_63cd6604___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
 /* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Home_vue_vue_type_template_id_63cd6604___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Home.vue?vue&type=template&id=63cd6604& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Home.vue?vue&type=template&id=63cd6604&");
+
+
+/***/ }),
+
+/***/ "./resources/js/views/Mortgage.vue?vue&type=template&id=b628ea8a&":
+/*!************************************************************************!*\
+  !*** ./resources/js/views/Mortgage.vue?vue&type=template&id=b628ea8a& ***!
+  \************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Mortgage_vue_vue_type_template_id_b628ea8a___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Mortgage_vue_vue_type_template_id_b628ea8a___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Mortgage_vue_vue_type_template_id_b628ea8a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./Mortgage.vue?vue&type=template&id=b628ea8a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Mortgage.vue?vue&type=template&id=b628ea8a&");
 
 
 /***/ }),
@@ -31030,6 +31711,413 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ApartmentCreate.vue?vue&type=template&id=2b192c33&":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ApartmentCreate.vue?vue&type=template&id=2b192c33& ***!
+  \***************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "form-check" },
+    [
+      _c("h5", [_vm._v("Наименование")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "input-group" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.apartment.name,
+              expression: "apartment.name",
+            },
+          ],
+          staticClass: "form-control",
+          attrs: {
+            type: "text",
+            "aria-label": "Наименование",
+            placeholder: "Наименование",
+          },
+          domProps: { value: _vm.apartment.name },
+          on: {
+            input: function ($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.apartment, "name", $event.target.value)
+            },
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("h5", [_vm._v("Количество комнат")]),
+      _vm._v(" "),
+      _c(
+        "select",
+        {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.apartment.count_room,
+              expression: "apartment.count_room",
+            },
+          ],
+          staticClass: "form-select",
+          attrs: { "aria-label": "Хочу продать" },
+          on: {
+            change: function ($event) {
+              var $$selectedVal = Array.prototype.filter
+                .call($event.target.options, function (o) {
+                  return o.selected
+                })
+                .map(function (o) {
+                  var val = "_value" in o ? o._value : o.value
+                  return val
+                })
+              _vm.$set(
+                _vm.apartment,
+                "count_room",
+                $event.target.multiple ? $$selectedVal : $$selectedVal[0]
+              )
+            },
+          },
+        },
+        _vm._l(_vm.input_filters.room_count, function (item) {
+          return _c(
+            "option",
+            { key: "room_" + item.id, domProps: { value: item.rooms } },
+            [_vm._v("\n            " + _vm._s(item.name) + "\n        ")]
+          )
+        }),
+        0
+      ),
+      _vm._v(" "),
+      _c("h5", [_vm._v("Цена")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "input-group" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.apartment.price,
+              expression: "apartment.price",
+            },
+          ],
+          staticClass: "form-control",
+          attrs: { type: "text", "aria-label": "Цена", placeholder: "Цена" },
+          domProps: { value: _vm.apartment.price },
+          on: {
+            input: function ($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.apartment, "price", $event.target.value)
+            },
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("h5", [_vm._v("Тип объекта")]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "btn-group",
+          attrs: { role: "group", "aria-label": "object_type" },
+        },
+        [
+          _c("input", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.apartment.object_type,
+                expression: "apartment.object_type",
+              },
+            ],
+            staticClass: "btn-check",
+            attrs: {
+              type: "radio",
+              value: "old",
+              name: "object_type",
+              id: "old",
+              autocomplete: "off",
+            },
+            domProps: { checked: _vm._q(_vm.apartment.object_type, "old") },
+            on: {
+              change: function ($event) {
+                return _vm.$set(_vm.apartment, "object_type", "old")
+              },
+            },
+          }),
+          _vm._v(" "),
+          _c(
+            "label",
+            { staticClass: "btn btn-outline-secondary", attrs: { for: "old" } },
+            [_vm._v("Вторичка")]
+          ),
+          _vm._v(" "),
+          _c("input", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.apartment.object_type,
+                expression: "apartment.object_type",
+              },
+            ],
+            staticClass: "btn-check",
+            attrs: {
+              type: "radio",
+              value: "new",
+              name: "object_type",
+              id: "new",
+              autocomplete: "off",
+            },
+            domProps: { checked: _vm._q(_vm.apartment.object_type, "new") },
+            on: {
+              change: function ($event) {
+                return _vm.$set(_vm.apartment, "object_type", "new")
+              },
+            },
+          }),
+          _vm._v(" "),
+          _c(
+            "label",
+            { staticClass: "btn btn-outline-secondary", attrs: { for: "new" } },
+            [_vm._v("Новостройка")]
+          ),
+        ]
+      ),
+      _vm._v(" "),
+      _vm._m(0),
+      _vm._v(" "),
+      _c("div", { staticClass: "input-group" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.apartment.square,
+              expression: "apartment.square",
+            },
+          ],
+          staticClass: "form-control",
+          attrs: {
+            type: "text",
+            "aria-label": "Площадь",
+            placeholder: "Площадь",
+          },
+          domProps: { value: _vm.apartment.square },
+          on: {
+            input: function ($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.apartment, "square", $event.target.value)
+            },
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("h5", [_vm._v("Этажей в доме")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "input-group" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.apartment.floor,
+              expression: "apartment.floor",
+            },
+          ],
+          staticClass: "form-control",
+          attrs: {
+            type: "text",
+            "aria-label": "Этажей",
+            placeholder: "Этажей",
+          },
+          domProps: { value: _vm.apartment.floor },
+          on: {
+            input: function ($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.$set(_vm.apartment, "floor", $event.target.value)
+            },
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("h5", [_vm._v("Тип жилья")]),
+      _vm._v(" "),
+      _c(
+        "div",
+        {
+          staticClass: "btn-group",
+          attrs: { role: "group", "aria-label": "apartment_type" },
+        },
+        [
+          _c("input", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.apartment.apartment_type,
+                expression: "apartment.apartment_type",
+              },
+            ],
+            staticClass: "btn-check",
+            attrs: {
+              value: "flat",
+              type: "radio",
+              name: "apartment_type",
+              id: "flat",
+              autocomplete: "off",
+            },
+            domProps: { checked: _vm._q(_vm.apartment.apartment_type, "flat") },
+            on: {
+              change: function ($event) {
+                return _vm.$set(_vm.apartment, "apartment_type", "flat")
+              },
+            },
+          }),
+          _vm._v(" "),
+          _c(
+            "label",
+            {
+              staticClass: "btn btn-outline-secondary",
+              attrs: { for: "flat" },
+            },
+            [_vm._v("Квартиры")]
+          ),
+          _vm._v(" "),
+          _c("input", {
+            directives: [
+              {
+                name: "model",
+                rawName: "v-model",
+                value: _vm.apartment.apartment_type,
+                expression: "apartment.apartment_type",
+              },
+            ],
+            staticClass: "btn-check",
+            attrs: {
+              value: "apartment",
+              type: "radio",
+              name: "apartment_type",
+              id: "apartment",
+              autocomplete: "off",
+            },
+            domProps: {
+              checked: _vm._q(_vm.apartment.apartment_type, "apartment"),
+            },
+            on: {
+              change: function ($event) {
+                return _vm.$set(_vm.apartment, "apartment_type", "apartment")
+              },
+            },
+          }),
+          _vm._v(" "),
+          _c(
+            "label",
+            {
+              staticClass: "btn btn-outline-secondary",
+              attrs: { for: "apartment" },
+            },
+            [_vm._v("Апартаменты")]
+          ),
+        ]
+      ),
+      _vm._v(" "),
+      _c("h5", [_vm._v("Тип дома")]),
+      _vm._v(" "),
+      _c(
+        "select",
+        {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.apartment.housing_type,
+              expression: "apartment.housing_type",
+            },
+          ],
+          staticClass: "form-select",
+          attrs: { "aria-label": "Хочу продать" },
+          on: {
+            change: function ($event) {
+              var $$selectedVal = Array.prototype.filter
+                .call($event.target.options, function (o) {
+                  return o.selected
+                })
+                .map(function (o) {
+                  var val = "_value" in o ? o._value : o.value
+                  return val
+                })
+              _vm.$set(
+                _vm.apartment,
+                "housing_type",
+                $event.target.multiple ? $$selectedVal : $$selectedVal[0]
+              )
+            },
+          },
+        },
+        _vm._l(_vm.input_filters.house_types, function (item) {
+          return _c(
+            "option",
+            { key: item.type, domProps: { value: item.type } },
+            [_vm._v("\n            " + _vm._s(item.name) + "\n        ")]
+          )
+        }),
+        0
+      ),
+      _vm._v(" "),
+      _c("h5", [_vm._v("Изображения")]),
+      _vm._v(" "),
+      _c("image-upload"),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "btn btn-secondary mt-4 mb-4",
+          attrs: { type: "button" },
+          on: { click: _vm.addRealty },
+        },
+        [_vm._v("Добавить квартиру")]
+      ),
+    ],
+    1
+  )
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("h5", [_vm._v("Общая площадь, м"), _c("sup", [_vm._v("3")])])
+  },
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Banner.vue?vue&type=template&id=3d01b757&":
 /*!******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/Banner.vue?vue&type=template&id=3d01b757& ***!
@@ -31127,7 +32215,18 @@ var render = function () {
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "row" }, [
-            _vm._m(0, true),
+            _c("div", { staticClass: "col-3" }, [
+              _c("img", {
+                staticClass: "img-fluid rounded-0",
+                attrs: {
+                  src:
+                    apartment.images.length > 0
+                      ? "/storage/" + apartment.images[0].url
+                      : "https://brilliant24.ru/files/cat/template_01.png",
+                  alt: "...",
+                },
+              }),
+            ]),
             _vm._v(" "),
             _c("div", { staticClass: "col-8" }, [
               _c("div", { staticClass: "card-body" }, [
@@ -31181,22 +32280,7 @@ var render = function () {
     0
   )
 }
-var staticRenderFns = [
-  function () {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-3" }, [
-      _c("img", {
-        staticClass: "img-fluid rounded-0",
-        attrs: {
-          src: "http://landmarkhunter.com/photos/51/00/510030-M.jpg",
-          alt: "...",
-        },
-      }),
-    ])
-  },
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -31230,6 +32314,118 @@ var render = function () {
     ],
     1
   )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ImageUpload.vue?vue&type=template&id=e0921fbe&":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/ImageUpload.vue?vue&type=template&id=e0921fbe& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", [
+    _c("div", { staticClass: "progress", staticStyle: { height: "40px" } }, [
+      _c(
+        "div",
+        {
+          staticClass: "progress-bar",
+          style: "width:" + _vm.getFiles.progress + "%",
+          attrs: { role: "progressbar" },
+        },
+        [_vm._v(_vm._s(_vm.getFiles.current))]
+      ),
+    ]),
+    _vm._v(" "),
+    _c("hr"),
+    _vm._v(" "),
+    _c("div", { staticClass: "input-group mb-3" }, [
+      _c("input", {
+        ref: "file",
+        staticClass: "form-control",
+        attrs: { type: "file", id: "images", multiple: "" },
+        on: { change: _vm.fileInputChange },
+      }),
+      _vm._v(" "),
+      _c(
+        "label",
+        { staticClass: "input-group-text", attrs: { for: "images" } },
+        [_vm._v("Выбрать")]
+      ),
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-sm-6" }, [
+        _c("h3", { staticClass: "text-center" }, [
+          _vm._v("Файлы в очереди (" + _vm._s(_vm.getFiles.order.length) + ")"),
+        ]),
+        _vm._v(" "),
+        _c(
+          "ul",
+          { staticClass: "list-group" },
+          _vm._l(_vm.getFiles.order, function (file) {
+            return _c(
+              "li",
+              { key: file.name, staticClass: "list-group-item" },
+              [
+                _vm._v(
+                  "\n                    " +
+                    _vm._s(file.name) +
+                    " : " +
+                    _vm._s(file.type) +
+                    "\n                "
+                ),
+              ]
+            )
+          }),
+          0
+        ),
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-sm-6" }, [
+        _c("h3", { staticClass: "text-center" }, [
+          _vm._v(
+            "Загруженные файлы (" + _vm._s(_vm.getFiles.finish.length) + ")"
+          ),
+        ]),
+        _vm._v(" "),
+        _c(
+          "ul",
+          { staticClass: "list-group" },
+          _vm._l(_vm.getFiles.finish, function (file) {
+            return _c(
+              "li",
+              { key: file.name, staticClass: "list-group-item" },
+              [
+                _vm._v(
+                  "\n                    " +
+                    _vm._s(file.name) +
+                    " : " +
+                    _vm._s(file.type) +
+                    "\n                "
+                ),
+              ]
+            )
+          }),
+          0
+        ),
+      ]),
+    ]),
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
@@ -31295,7 +32491,7 @@ var render = function () {
           "router-link",
           {
             staticClass: "nav-link",
-            attrs: { "aria-current": "page", to: "/ipoteka" },
+            attrs: { "aria-current": "page", to: "/mortgage" },
           },
           [
             _c("i", { staticClass: "fas fa-clipboard-list" }),
@@ -31398,6 +32594,155 @@ render._withStripped = true
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Mortgage.vue?vue&type=template&id=b628ea8a&":
+/*!***************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Mortgage.vue?vue&type=template&id=b628ea8a& ***!
+  \***************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "form-check mt-5" }, [
+      _c("h5", [_vm._v("ФИО")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "input-group" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.name,
+              expression: "name",
+            },
+          ],
+          staticClass: "form-control",
+          attrs: { type: "text", "aria-label": "ФИО", placeholder: "ФИО" },
+          domProps: { value: _vm.name },
+          on: {
+            input: function ($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.name = $event.target.value
+            },
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("h5", [_vm._v("Телефон")]),
+      _vm._v(" "),
+      _c("div", { staticClass: "input-group" }, [
+        _c("input", {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.phone,
+              expression: "phone",
+            },
+          ],
+          staticClass: "form-control",
+          attrs: {
+            type: "text",
+            "aria-label": "Телефон",
+            placeholder: "Телефон",
+          },
+          domProps: { value: _vm.phone },
+          on: {
+            input: function ($event) {
+              if ($event.target.composing) {
+                return
+              }
+              _vm.phone = $event.target.value
+            },
+          },
+        }),
+      ]),
+      _vm._v(" "),
+      _c("h5", [_vm._v("Хочу купить")]),
+      _vm._v(" "),
+      _c(
+        "select",
+        {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.realty,
+              expression: "realty",
+            },
+          ],
+          staticClass: "form-select",
+          attrs: { "aria-label": "Хочу  купить" },
+          on: {
+            change: function ($event) {
+              var $$selectedVal = Array.prototype.filter
+                .call($event.target.options, function (o) {
+                  return o.selected
+                })
+                .map(function (o) {
+                  var val = "_value" in o ? o._value : o.value
+                  return val
+                })
+              _vm.realty = $event.target.multiple
+                ? $$selectedVal
+                : $$selectedVal[0]
+            },
+          },
+        },
+        [
+          _c("option", { attrs: { selected: "", value: "apartment" } }, [
+            _vm._v("Квартира"),
+          ]),
+          _vm._v(" "),
+          _c("option", { attrs: { value: "room" } }, [_vm._v("Комната")]),
+          _vm._v(" "),
+          _c("option", { attrs: { value: "house" } }, [
+            _vm._v("Дачи, дома, коттеджи"),
+          ]),
+          _vm._v(" "),
+          _c("option", { attrs: { value: "garage" } }, [
+            _vm._v("Гаражи и машиноместа"),
+          ]),
+          _vm._v(" "),
+          _c("option", { attrs: { value: "plot" } }, [
+            _vm._v("Земельные участки"),
+          ]),
+          _vm._v(" "),
+          _c("option", { attrs: { value: "commercial" } }, [
+            _vm._v("Коммерческая недвижимость"),
+          ]),
+        ]
+      ),
+      _vm._v(" "),
+      _c(
+        "button",
+        {
+          staticClass: "btn btn-secondary mt-4 mb-4",
+          attrs: { type: "button" },
+          on: { click: _vm.addMortgage },
+        },
+        [_vm._v("Оставить заявку")]
+      ),
+    ]),
+  ])
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Sell.vue?vue&type=template&id=3275b5f1&":
 /*!***********************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/views/Sell.vue?vue&type=template&id=3275b5f1& ***!
@@ -31416,7 +32761,66 @@ var render = function () {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    [_c("Button", { on: { click: _vm.addRealty } }, [_vm._v("Добавить")])],
+    { staticClass: "container" },
+    [
+      _c("h2", { staticClass: "m-3" }, [_vm._v("Хочу продать")]),
+      _vm._v(" "),
+      _c(
+        "select",
+        {
+          directives: [
+            {
+              name: "model",
+              rawName: "v-model",
+              value: _vm.type_realty,
+              expression: "type_realty",
+            },
+          ],
+          staticClass: "form-select",
+          attrs: { "aria-label": "Хочу продать" },
+          on: {
+            change: function ($event) {
+              var $$selectedVal = Array.prototype.filter
+                .call($event.target.options, function (o) {
+                  return o.selected
+                })
+                .map(function (o) {
+                  var val = "_value" in o ? o._value : o.value
+                  return val
+                })
+              _vm.type_realty = $event.target.multiple
+                ? $$selectedVal
+                : $$selectedVal[0]
+            },
+          },
+        },
+        [
+          _c("option", { attrs: { selected: "", value: "apartment" } }, [
+            _vm._v("Квартира"),
+          ]),
+          _vm._v(" "),
+          _c("option", { attrs: { value: "room" } }, [_vm._v("Комната")]),
+          _vm._v(" "),
+          _c("option", { attrs: { value: "house" } }, [
+            _vm._v("Дачи, дома, коттеджи"),
+          ]),
+          _vm._v(" "),
+          _c("option", { attrs: { value: "garage" } }, [
+            _vm._v("Гаражи и машиноместа"),
+          ]),
+          _vm._v(" "),
+          _c("option", { attrs: { value: "plot" } }, [
+            _vm._v("Земельные участки"),
+          ]),
+          _vm._v(" "),
+          _c("option", { attrs: { value: "commercial" } }, [
+            _vm._v("Коммерческая недвижимость"),
+          ]),
+        ]
+      ),
+      _vm._v(" "),
+      _vm.type_realty === "apartment" ? _c("apartment-create") : _vm._e(),
+    ],
     1
   )
 }

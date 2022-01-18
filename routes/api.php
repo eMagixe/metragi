@@ -3,6 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Api\v1\ApartmentsController;
+use App\Http\Controllers\Api\v1\MortgageController;
+use App\Http\Controllers\Api\v1\ImageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,4 +17,7 @@ use App\Http\Controllers\Api\v1\ApartmentsController;
 |
 */
 Route::post('apartments/filter', [ApartmentsController::class, 'filter'])->name('apartments.filter');
+Route::post('mortgage/create', [MortgageController::class, 'store'])->name('mortgage.create');
+Route::post('image/upload', [ImageController::class, 'upload'])->name('image.upload');
 Route::resource('apartments', ApartmentsController::class);
+

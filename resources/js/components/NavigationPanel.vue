@@ -7,7 +7,7 @@
             <router-link class="nav-link" aria-current="page" to="/sell"><i class="fas fa-minus-circle"></i> ПРОДАТЬ</router-link>
         </li>
         <li class="nav-item">
-            <router-link class="nav-link" aria-current="page" to="/ipoteka"><i class="fas fa-clipboard-list"></i> ЗАЯВКИ НА ИПОТЕКУ</router-link>
+            <router-link class="nav-link" aria-current="page" to="/mortgage"><i class="fas fa-clipboard-list"></i> ЗАЯВКИ НА ИПОТЕКУ</router-link>
         </li>
     </ul>
 </template>
